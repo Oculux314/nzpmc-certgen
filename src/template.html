@@ -1,12 +1,103 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Template</title>
-  </head>
-  <body>
-    <h1>Test</h1>
-    <p>//Name</p>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate of Achievement</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .certificate-container {
+            background-color: #ffffff;
+            border: 10px solid #2c3e50;
+            padding: 50px;
+            width: 70%;
+            max-width: 800px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        .certificate-header {
+            text-align: center;
+            color: #2c3e50;
+        }
+        .certificate-title {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin: 0;
+        }
+        .certificate-subtitle {
+            font-size: 1.2em;
+            margin: 0;
+            margin-top: 10px;
+        }
+        .certificate-body {
+            margin-top: 40px;
+            text-align: center;
+            color: #34495e;
+        }
+        .certificate-recipient {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        .certificate-text {
+            font-size: 1.2em;
+        }
+        .certificate-footer {
+            margin-top: 40px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .certificate-signature {
+            text-align: center;
+            width: 45%;
+        }
+        .certificate-signature img {
+            width: 150px;
+            height: auto;
+        }
+        .certificate-signature p {
+            margin: 5px 0 0;
+        }
+        .certificate-seal {
+            text-align: center;
+            width: 45%;
+        }
+        .certificate-seal img {
+            width: 100px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="certificate-container">
+        <div class="certificate-header">
+            <h1 class="certificate-title">Certificate of Achievement</h1>
+            <p class="certificate-subtitle">This is to certify that</p>
+        </div>
+        <div class="certificate-body">
+            <p class="certificate-recipient">//name</p>
+            <p class="certificate-text">has successfully completed the course</p>
+            <p class="certificate-text"><strong>//course</strong></p>
+            <p class="certificate-text">on this day, //date</p>
+        </div>
+        <div class="certificate-footer">
+            <div class="certificate-signature">
+                <img src="https://cdn.shopify.com/s/files/1/0594/4639/5086/files/Slanted_Signature.jpg?v=1680536859" alt="Signature">
+                <p>Instructor's Name</p>
+                <p>Course Instructor</p>
+            </div>
+            <div class="certificate-seal">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAAb1lICn8cq-fFgggLqniEtY9xNjkAzVHMQ&s" alt="Seal">
+                <p>Official Seal</p>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
