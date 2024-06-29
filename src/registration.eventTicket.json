@@ -1,40 +1,5 @@
 [{
   "_id": {
-    "email": "hkim3@atlassian.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Ephemeral",
-  "personSnapshot": {
-    "studentName": "Hjiwoaef",
-    "yearLevel": "10",
-    "studentEmail": "hkim3@atlassian.com",
-    "teacherEmail": "contact@nzpmc.com",
-    "schoolName": "NZPMC School",
-    "schoolAddress": "somewhere over the rainbow",
-    "city": "Auckland",
-    "island": "North Island",
-    "startedRegistrationDate": {
-      "$date": "2024-04-30T20:21:47.327Z"
-    },
-    "registerationConfirmedDate": {
-      "$date": "2024-04-30T20:22:33.580Z"
-    }
-  },
-  "paymentInfo": {
-    "paymentMethod": "STRIPE",
-    "paymentToken": "cs_live_a1aY9BZS5xlxoYzdGJYRpKux5f9gCKTTr0flvNIVU9glZmQmVPzREgkJ10"
-  },
-  "registrationForm": {
-    "paymentMethod": "STRIPE",
-    "ParticipationReason": "Parents",
-    "NZPMC20": true,
-    "undefined": "STEM (Science/Technology/Engineering/Math)",
-    "fyi": "asdfasdfasd"
-  },
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
-},
-{
-  "_id": {
     "email": "tianzexi.liu@gmail.com",
     "eventCode": "NZPMC24R1"
   },
@@ -1044,14 +1009,6 @@
     "score": "30.0/40.0",
     "titles": []
   }
-},
-{
-  "_id": {
-    "email": "yatawahaj07@gmail.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Declined",
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
 },
 {
   "_id": {
@@ -2259,37 +2216,6 @@
 },
 {
   "_id": {
-    "email": "g.zzchen@gmail.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Ephemeral",
-  "personSnapshot": {
-    "studentName": "Zhuozhang",
-    "yearLevel": "12",
-    "studentEmail": "g.zzchen@gmail.com",
-    "teacherEmail": "bennk@pnbhs.school.nz",
-    "schoolName": "Palmerston North Boys' High School",
-    "schoolAddress": "263 Featherston St, Palmerston North",
-    "city": "Whanganui - Manawatu",
-    "island": "North Island",
-    "startedRegistrationDate": {
-      "$date": "2024-04-07T05:19:06.310Z"
-    }
-  },
-  "registrationForm": {
-    "NZPMC21": true,
-    "NZPMC22R1": true,
-    "NZPMC23R1": true,
-    "undefined": "Professor",
-    "fyi": "No ",
-    "willingFinal": true,
-    "ParticipationReason": "Teacher/School",
-    "paymentMethod": "STRIPE"
-  },
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
-},
-{
-  "_id": {
     "email": "piwakawaka774@gmail.com",
     "eventCode": "NZPMC24R1"
   },
@@ -2874,34 +2800,6 @@
     "score": "29.0/40.0",
     "titles": []
   }
-},
-{
-  "_id": {
-    "email": "yujolin08@gmail.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Ephemeral",
-  "personSnapshot": {
-    "studentName": "Jolin",
-    "yearLevel": "12",
-    "studentEmail": "yujolin08@gmail.com",
-    "teacherEmail": "francis@stcuthberts.school.nz",
-    "schoolName": "Saint Cuthbert's College",
-    "schoolAddress": "122,Market Rd",
-    "city": "Auckland",
-    "island": "North Island",
-    "startedRegistrationDate": {
-      "$date": "2024-04-08T04:11:50.265Z"
-    }
-  },
-  "registrationForm": {
-    "paymentMethod": "STRIPE",
-    "ParticipationReason": "To challenge myself",
-    "undefined": "STEM (Science/Technology/Engineering/Math)",
-    "willingFinal": true,
-    "fyi": "-"
-  },
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
 },
 {
   "_id": {
@@ -3842,41 +3740,6 @@
 },
 {
   "_id": {
-    "email": "jonathan.li31416@gmail.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Ephemeral",
-  "personSnapshot": {
-    "studentName": "Jonathan",
-    "yearLevel": "12",
-    "studentEmail": "jonathan.li31416@gmail.com",
-    "teacherEmail": "i.bennet@bdsc.school.nz",
-    "schoolName": "Botany Downs Secondary College",
-    "schoolAddress": "575 chapel road, East Tamaki, Auckland",
-    "city": "Auckland",
-    "island": "North Island",
-    "startedRegistrationDate": {
-      "$date": "2024-04-20T04:46:35.768Z"
-    }
-  },
-  "paymentInfo": {
-    "paymentMethod": "POLIPAY",
-    "paymentToken": "aw9JAqlmOqZXN3waTw9sDdm9mVqMLOzY"
-  },
-  "registrationForm": {
-    "paymentMethod": "POLIPAY",
-    "ParticipationReason": "Friends",
-    "NZPMC22R1": true,
-    "NZPMC22R2": true,
-    "NZPMC23R1": true,
-    "undefined": "STEM (Science/Technology/Engineering/Math)",
-    "fyi": "If you could give me answers (correct) pls surely :D",
-    "willingFinal": true
-  },
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
-},
-{
-  "_id": {
     "email": "meili.esther.hayes@gmail.com",
     "eventCode": "NZPMC24R1"
   },
@@ -4783,62 +4646,6 @@
 },
 {
   "_id": {
-    "email": "g.a.mcguinness@student.saintkentigern.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Ephemeral",
-  "personSnapshot": {
-    "studentName": "George",
-    "yearLevel": "11",
-    "studentEmail": "g.a.mcguinness@student.saintkentigern.com",
-    "teacherEmail": "stacy.lillywhite@saintkentigern.com",
-    "schoolName": "Saint Kentigern College",
-    "schoolAddress": "130 Pakuranga Road Pakuranga Auckland 2010",
-    "city": "Auckland",
-    "island": "North Island",
-    "startedRegistrationDate": {
-      "$date": "2024-04-09T23:23:51.592Z"
-    }
-  },
-  "registrationForm": {
-    "undefined": "STEM (Science/Technology/Engineering/Math)",
-    "willingFinal": true,
-    "ParticipationReason": "Teacher/School",
-    "paymentMethod": "STRIPE",
-    "fyi": "no"
-  },
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
-},
-{
-  "_id": {
-    "email": "kennethyyl@gmail.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Ephemeral",
-  "personSnapshot": {
-    "studentName": "Kenneth",
-    "yearLevel": "12",
-    "studentEmail": "kennethyyl@gmail.com",
-    "teacherEmail": "ian.grose@macleans.school.nz",
-    "schoolName": "Macleans College",
-    "schoolAddress": "2 Macleans Road, Bucklands Beach, Auckland 2014.",
-    "city": "Auckland",
-    "island": "North Island",
-    "startedRegistrationDate": {
-      "$date": "2024-04-10T00:18:24.824Z"
-    }
-  },
-  "registrationForm": {
-    "paymentMethod": "STRIPE",
-    "undefined": "STEM (Science/Technology/Engineering/Math)",
-    "willingFinal": true,
-    "ParticipationReason": "To showcase my academic ability",
-    "fyi": "I have done many maths competitions in the past and have achieved great results (top in NZ) so I would like to try something new with NZPMC as I saw my friends talking part."
-  },
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
-},
-{
-  "_id": {
     "email": "yinagnes@yahoo.com",
     "eventCode": "NZPMC24R1"
   },
@@ -5739,38 +5546,6 @@
     "score": "28.5/40.0",
     "titles": []
   }
-},
-{
-  "_id": {
-    "email": "mr.khoa1412@gmail.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Ephemeral",
-  "personSnapshot": {
-    "studentName": "Kelvin",
-    "yearLevel": "13",
-    "studentEmail": "mr.khoa1412@gmail.com",
-    "teacherEmail": "sslabbert@mags.school.nz",
-    "schoolName": "Mt Albert Grammar School",
-    "schoolAddress": "Alberton avenue Mt Albert Auckland",
-    "city": "Auckland",
-    "island": "North Island",
-    "startedRegistrationDate": {
-      "$date": "2024-04-10T21:28:47.491Z"
-    }
-  },
-  "paymentInfo": {
-    "paymentMethod": "POLIPAY",
-    "paymentToken": "gC5nirl%2fY4plKFoD8H2DpFPxCJ5KmXsd"
-  },
-  "registrationForm": {
-    "paymentMethod": "POLIPAY",
-    "ParticipationReason": "To challenge myself",
-    "undefined": "Health Science",
-    "willingFinal": true,
-    "fyi": "No"
-  },
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
 },
 {
   "_id": {
@@ -9891,39 +9666,6 @@
 },
 {
   "_id": {
-    "email": "melissajtoe@gmail.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Ephemeral",
-  "personSnapshot": {
-    "studentName": "Melissa",
-    "yearLevel": "12",
-    "studentEmail": "melissajtoe@gmail.com",
-    "teacherEmail": "rashok@masseyhigh.school.nz",
-    "schoolName": "Massey High School",
-    "schoolAddress": "264, Don Buck Road, Massey , Auckland",
-    "city": "Auckland",
-    "island": "North Island",
-    "startedRegistrationDate": {
-      "$date": "2024-04-18T08:14:47.480Z"
-    }
-  },
-  "paymentInfo": {
-    "paymentMethod": "POLIPAY",
-    "paymentToken": "%2bzfXDoek2kvTdDIzupU%2fBDDenCtAZfQN"
-  },
-  "registrationForm": {
-    "NZPMC23R1": true,
-    "paymentMethod": "POLIPAY",
-    "ParticipationReason": "To challenge myself",
-    "undefined": "STEM (Science/Technology/Engineering/Math)",
-    "willingFinal": true,
-    "fyi": "no"
-  },
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
-},
-{
-  "_id": {
     "email": "charliegmac99@gmail.com",
     "eventCode": "NZPMC24R1"
   },
@@ -11413,44 +11155,6 @@
 },
 {
   "_id": {
-    "email": "charlieleenz@hotmail.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Ephemeral",
-  "personSnapshot": {
-    "studentName": "Tong Xin",
-    "yearLevel": "12",
-    "studentEmail": "charlieleenz@hotmail.com",
-    "teacherEmail": "indi.sriprisan@acgedu.com",
-    "schoolName": "ACG Parnell College",
-    "schoolAddress": "2 Titoki St, Parnell, Auckland",
-    "city": "Auckland",
-    "island": "North Island",
-    "startedRegistrationDate": {
-      "$date": "2024-04-22T00:49:44.132Z"
-    },
-    "registerationConfirmedDate": {
-      "$date": "2024-04-22T00:50:17.612Z"
-    }
-  },
-  "paymentInfo": {
-    "paymentMethod": "STRIPE",
-    "paymentToken": "cs_live_a14Sg3vakddJ4pGq1CIZfROQw37qICrVPZQUkRGNV6jzocCi9UnDkVqjcl"
-  },
-  "registrationForm": {
-    "NZPHO23R1": true,
-    "NZPMC23R2": true,
-    "NZPMC23R1": true,
-    "ParticipationReason": "To showcase my academic ability",
-    "paymentMethod": "STRIPE",
-    "undefined": "STEM (Science/Technology/Engineering/Math)",
-    "willingFinal": true,
-    "fyi": "I saw that NZPhO will not be run this year. Will it be coming back next year?"
-  },
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
-},
-{
-  "_id": {
     "email": "dev07cricket@gmail.com",
     "eventCode": "NZPMC24R1"
   },
@@ -12796,33 +12500,6 @@
 },
 {
   "_id": {
-    "email": "elva.zheng.nz@gmail.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Ephemeral",
-  "personSnapshot": {
-    "studentName": "Elva",
-    "yearLevel": "12",
-    "studentEmail": "elva.zheng.nz@gmail.com",
-    "teacherEmail": "awoodall@diocesan.school.nz",
-    "schoolName": "Diocesan School for Girls",
-    "schoolAddress": "Clyde Street, Epsom, Auckland",
-    "city": "Auckland",
-    "island": "North Island",
-    "startedRegistrationDate": {
-      "$date": "2024-04-24T23:21:20.536Z"
-    }
-  },
-  "registrationForm": {
-    "paymentMethod": "STRIPE",
-    "ParticipationReason": "Parents",
-    "undefined": "STEM (Science/Technology/Engineering/Math)",
-    "fyi": "no."
-  },
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
-},
-{
-  "_id": {
     "email": "nz21cheng@gmail.com",
     "eventCode": "NZPMC24R1"
   },
@@ -13971,35 +13648,6 @@
 },
 {
   "_id": {
-    "email": "vackyoh@gmail.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Ephemeral",
-  "personSnapshot": {
-    "studentName": "Vacky",
-    "yearLevel": "12",
-    "studentEmail": "vackyoh@gmail.com",
-    "teacherEmail": "sbier@westlakegirls.school.nz",
-    "schoolName": "Westlake Girls' High School",
-    "schoolAddress": "2 Wairau Rd, Takapuna, Auckland",
-    "city": "Auckland",
-    "island": "North Island",
-    "startedRegistrationDate": {
-      "$date": "2024-05-01T04:29:17.042Z"
-    }
-  },
-  "registrationForm": {
-    "ParticipationReason": "Teacher/School",
-    "paymentMethod": "STRIPE",
-    "NZPMC23R1": true,
-    "undefined": "Health Science",
-    "fyi": "no",
-    "willingFinal": true
-  },
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
-},
-{
-  "_id": {
     "email": "huhbrah642@gmail.com",
     "eventCode": "NZPMC24R1"
   },
@@ -15023,37 +14671,6 @@
 },
 {
   "_id": {
-    "email": "wuruiqiyuki@gmail.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Ephemeral",
-  "personSnapshot": {
-    "studentName": "Yuki",
-    "yearLevel": "12",
-    "studentEmail": "wuruiqiyuki@gmail.com",
-    "teacherEmail": "harimkim@kristin.school.nz",
-    "schoolName": "Kristin School",
-    "schoolAddress": "360 Albany Highway, Albany, Auckland 0632",
-    "city": "Auckland",
-    "island": "North Island",
-    "startedRegistrationDate": {
-      "$date": "2024-04-26T12:29:47.039Z"
-    }
-  },
-  "paymentInfo": {
-    "paymentMethod": "POLIPAY",
-    "paymentToken": "HL0gv8TuBeSE9HqHsegP96BF6OUYVXBO"
-  },
-  "registrationForm": {
-    "undefined": "STEM (Science/Technology/Engineering/Math)",
-    "ParticipationReason": "Others",
-    "paymentMethod": "POLIPAY",
-    "fyi": "-"
-  },
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
-},
-{
-  "_id": {
     "email": "richardmengx@gmail.com",
     "eventCode": "NZPMC24R1"
   },
@@ -15379,34 +14996,6 @@
 },
 {
   "_id": {
-    "email": "lana.mourad2@gmail.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Ephemeral",
-  "personSnapshot": {
-    "studentName": "Lana",
-    "yearLevel": "12",
-    "studentEmail": "lana.mourad2@gmail.com",
-    "teacherEmail": "sbier@westlakegirls.school.nz",
-    "schoolName": "Westlake Girls' High School",
-    "schoolAddress": "2 Warau Road, Takapuna, Auckland",
-    "city": "Auckland",
-    "island": "North Island",
-    "startedRegistrationDate": {
-      "$date": "2024-04-26T23:54:17.065Z"
-    }
-  },
-  "registrationForm": {
-    "paymentMethod": "STRIPE",
-    "ParticipationReason": "To challenge myself",
-    "undefined": "Health Science",
-    "willingFinal": true,
-    "fyi": "N/A"
-  },
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
-},
-{
-  "_id": {
     "email": "solarianwastaken@hotmail.com",
     "eventCode": "NZPMC24R1"
   },
@@ -15446,35 +15035,6 @@
     "score": "28.0/40.0",
     "titles": []
   }
-},
-{
-  "_id": {
-    "email": "kino2.0@outlook.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Ephemeral",
-  "personSnapshot": {
-    "studentName": "Nuochen",
-    "yearLevel": "13",
-    "studentEmail": "kino2.0@outlook.com",
-    "teacherEmail": "indi.sriprisan@acgedu.com",
-    "schoolName": "ACG Parnell College",
-    "schoolAddress": "2 Titoki Street, Parnell, Auckland 1052",
-    "city": "Auckland",
-    "island": "North Island",
-    "startedRegistrationDate": {
-      "$date": "2024-04-27T02:08:01.068Z"
-    }
-  },
-  "registrationForm": {
-    "NZPHO23R1": true,
-    "ParticipationReason": "It sounded fun",
-    "undefined": "STEM (Science/Technology/Engineering/Math)",
-    "willingFinal": true,
-    "paymentMethod": "STRIPE",
-    "fyi": "no"
-  },
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
 },
 {
   "_id": {
@@ -15843,34 +15403,6 @@
 },
 {
   "_id": {
-    "email": "infinitypapalii@gmail.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Ephemeral",
-  "personSnapshot": {
-    "studentName": "Infinity",
-    "yearLevel": "12",
-    "studentEmail": "infinitypapalii@gmail.com",
-    "teacherEmail": "sslabbert@mags.school.nz",
-    "schoolName": "Mt Albert Grammar School",
-    "schoolAddress": "Alberton avenue Mt Albert Auckland",
-    "city": "Auckland",
-    "island": "North Island",
-    "startedRegistrationDate": {
-      "$date": "2024-04-30T09:09:55.941Z"
-    }
-  },
-  "registrationForm": {
-    "paymentMethod": "STRIPE",
-    "ParticipationReason": "To challenge myself",
-    "undefined": "STEM (Science/Technology/Engineering/Math)",
-    "fyi": "No",
-    "willingFinal": true
-  },
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
-},
-{
-  "_id": {
     "email": "henryw4321@outlook.com",
     "eventCode": "NZPMC24R1"
   },
@@ -16121,34 +15653,6 @@
     "score": "29.0/40.0",
     "titles": []
   }
-},
-{
-  "_id": {
-    "email": "abishekaguganeshan27@gmail.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Ephemeral",
-  "personSnapshot": {
-    "studentName": "Abisheka",
-    "yearLevel": "12",
-    "studentEmail": "abishekaguganeshan27@gmail.com",
-    "teacherEmail": "mghanim@eggs.school.nz",
-    "schoolName": "Epsom Girls Grammar School",
-    "schoolAddress": "Silver Rd , EPSOM , Auckland 1023",
-    "city": "Auckland",
-    "island": "North Island",
-    "startedRegistrationDate": {
-      "$date": "2024-04-28T10:18:47.275Z"
-    }
-  },
-  "registrationForm": {
-    "paymentMethod": "STRIPE",
-    "ParticipationReason": "To challenge myself",
-    "undefined": "STEM (Science/Technology/Engineering/Math)",
-    "fyi": "I am just an average student trying this for the first time",
-    "willingFinal": true
-  },
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
 },
 {
   "_id": {
@@ -16674,34 +16178,6 @@
     "score": "29.0/40.0",
     "titles": []
   }
-},
-{
-  "_id": {
-    "email": "zczc5200@gmail.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Ephemeral",
-  "personSnapshot": {
-    "studentName": "Cici",
-    "yearLevel": "11",
-    "studentEmail": "zczc5200@gmail.com",
-    "teacherEmail": "mghanim@eggs.school.nz",
-    "schoolName": "Epsom Girls Grammar School",
-    "schoolAddress": "Silver Rd , EPSOM , Auckland 1023",
-    "city": "Auckland",
-    "island": "North Island",
-    "startedRegistrationDate": {
-      "$date": "2024-04-28T07:35:13.697Z"
-    }
-  },
-  "registrationForm": {
-    "ParticipationReason": "To challenge myself",
-    "undefined": "Education",
-    "willingFinal": true,
-    "paymentMethod": "STRIPE",
-    "fyi": "no"
-  },
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
 },
 {
   "_id": {
@@ -17430,34 +16906,6 @@
     "score": "10.0/40.0",
     "titles": []
   }
-},
-{
-  "_id": {
-    "email": "hananyaravichandar2009@gmail.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Ephemeral",
-  "personSnapshot": {
-    "studentName": "Hananya",
-    "yearLevel": "11",
-    "studentEmail": "hananyaravichandar2009@gmail.com",
-    "teacherEmail": "mghanim@eggs.school.nz",
-    "schoolName": "Epsom Girls Grammar School",
-    "schoolAddress": "Silver Rd , EPSOM , Auckland 1023",
-    "city": "Auckland",
-    "island": "North Island",
-    "startedRegistrationDate": {
-      "$date": "2024-04-28T23:58:33.989Z"
-    }
-  },
-  "registrationForm": {
-    "ParticipationReason": "To challenge myself",
-    "undefined": "Health Science",
-    "willingFinal": true,
-    "paymentMethod": "STRIPE",
-    "fyi": "NO"
-  },
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
 },
 {
   "_id": {
@@ -18693,14 +18141,6 @@
 },
 {
   "_id": {
-    "email": "victoriaheng208@gmail.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Declined",
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
-},
-{
-  "_id": {
     "email": "chuducminh2206@gmail.com",
     "eventCode": "NZPMC24R1"
   },
@@ -19186,14 +18626,6 @@
 },
 {
   "_id": {
-    "email": "jessicanicolewilliams2008@gmail.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Declined",
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
-},
-{
-  "_id": {
     "email": "pjtwaikare@gmail.com",
     "eventCode": "NZPMC24R1"
   },
@@ -19593,34 +19025,6 @@
 },
 {
   "_id": {
-    "email": "daisylee200918@gmail.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Ephemeral",
-  "personSnapshot": {
-    "studentName": "Daisy",
-    "yearLevel": "10",
-    "studentEmail": "daisylee200918@gmail.com",
-    "teacherEmail": "jenny.mclean@cloud.rangitoto.school.nz",
-    "schoolName": "Rangitoto College",
-    "schoolAddress": "564 Eastcoast Rd,  Mairangi Bay",
-    "city": "Auckland",
-    "island": "North Island",
-    "startedRegistrationDate": {
-      "$date": "2024-04-29T09:56:21.509Z"
-    }
-  },
-  "registrationForm": {
-    "paymentMethod": "STRIPE",
-    "ParticipationReason": "It sounded fun",
-    "undefined": "Others",
-    "willingFinal": true,
-    "fyi": "no"
-  },
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
-},
-{
-  "_id": {
     "email": "amit.selwyn@gmail.com",
     "eventCode": "NZPMC24R1"
   },
@@ -19993,33 +19397,6 @@
 },
 {
   "_id": {
-    "email": "jerry.j.h.zhao@gmail.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Ephemeral",
-  "personSnapshot": {
-    "studentName": "Jerry",
-    "yearLevel": "9",
-    "studentEmail": "jerry.j.h.zhao@gmail.com",
-    "teacherEmail": "ch@riccarton.school.nz",
-    "schoolName": "Riccarton High School",
-    "schoolAddress": "31 Vicki St, Sockburn, Christchurch 8042 ",
-    "city": "Canterbury",
-    "island": "South Island",
-    "startedRegistrationDate": {
-      "$date": "2024-04-29T20:32:50.336Z"
-    }
-  },
-  "registrationForm": {
-    "ParticipationReason": "To showcase my academic ability",
-    "undefined": "Law",
-    "paymentMethod": "STRIPE",
-    "fyi": "N/A"
-  },
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
-},
-{
-  "_id": {
     "email": "theholdensnz@gmail.com",
     "eventCode": "NZPMC24R1"
   },
@@ -20100,40 +19477,6 @@
     "score": "30.0/40.0",
     "titles": []
   }
-},
-{
-  "_id": {
-    "email": "quintencarlos@gmail.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Ephemeral",
-  "personSnapshot": {
-    "studentName": "Quinten",
-    "yearLevel": "13",
-    "studentEmail": "quintencarlos@gmail.com",
-    "teacherEmail": "bonitame@wgpcollege.school.nz",
-    "schoolName": "Whangaparaoa College",
-    "schoolAddress": "Whangaparaoa College, 8, Stanmore Bay Road, Stanmore 6763, Whangaparaoa, Auckland",
-    "city": "Auckland",
-    "island": "North Island",
-    "startedRegistrationDate": {
-      "$date": "2024-04-29T20:59:08.593Z"
-    }
-  },
-  "paymentInfo": {
-    "paymentMethod": "POLIPAY",
-    "paymentToken": "%2bvJecAmBoG2eyUyOwmJGf0xtlE4Cy%2fAR"
-  },
-  "registrationForm": {
-    "paymentMethod": "POLIPAY",
-    "ParticipationReason": "Teacher/School",
-    "NZPHO23R1": true,
-    "NZPMC23R1": true,
-    "undefined": "STEM (Science/Technology/Engineering/Math)",
-    "willingFinal": true,
-    "fyi": "No"
-  },
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
 },
 {
   "_id": {
@@ -20411,14 +19754,6 @@
 },
 {
   "_id": {
-    "email": "abigailchang5390@gmail.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Declined",
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
-},
-{
-  "_id": {
     "email": "simonxiao2007@gmail.com",
     "eventCode": "NZPMC24R1"
   },
@@ -20660,34 +19995,6 @@
 },
 {
   "_id": {
-    "email": "nwackrow@icloud.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Ephemeral",
-  "personSnapshot": {
-    "studentName": "Natalie",
-    "yearLevel": "11",
-    "studentEmail": "nwackrow@icloud.com",
-    "teacherEmail": "francis@stcuthberts.school.nz",
-    "schoolName": "Saint Cuthbert's College",
-    "schoolAddress": "122,Market Rd",
-    "city": "Auckland",
-    "island": "North Island",
-    "startedRegistrationDate": {
-      "$date": "2024-04-30T00:16:49.879Z"
-    }
-  },
-  "registrationForm": {
-    "paymentMethod": "STRIPE",
-    "ParticipationReason": "To challenge myself",
-    "undefined": "STEM (Science/Technology/Engineering/Math)",
-    "willingFinal": true,
-    "fyi": "no"
-  },
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
-},
-{
-  "_id": {
     "email": "zihanli0728@163.com",
     "eventCode": "NZPMC24R1"
   },
@@ -20883,34 +20190,6 @@
 },
 {
   "_id": {
-    "email": "jaydenburgess0510@gmail.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Ephemeral",
-  "personSnapshot": {
-    "studentName": "Jayden",
-    "yearLevel": "12",
-    "studentEmail": "jaydenburgess0510@gmail.com",
-    "teacherEmail": "jf@kingshigh.school.nz",
-    "schoolName": "King's High School",
-    "schoolAddress": "270 Bayview Road, Dunedin",
-    "city": "Otago",
-    "island": "South Island",
-    "startedRegistrationDate": {
-      "$date": "2024-04-30T02:36:40.973Z"
-    }
-  },
-  "registrationForm": {
-    "paymentMethod": "STRIPE",
-    "ParticipationReason": "To showcase my academic ability",
-    "undefined": "Data Scientist",
-    "willingFinal": true,
-    "fyi": "no"
-  },
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
-},
-{
-  "_id": {
     "email": "joshualondon2964@gmail.com",
     "eventCode": "NZPMC24R1"
   },
@@ -20948,34 +20227,6 @@
     "score": "12.0/40.0",
     "titles": []
   }
-},
-{
-  "_id": {
-    "email": "burnscharles987@gmail.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Ephemeral",
-  "personSnapshot": {
-    "studentName": "Charles",
-    "yearLevel": "12",
-    "studentEmail": "burnscharles987@gmail.com",
-    "teacherEmail": "doug.walker@stpats.school.nz",
-    "schoolName": "St Patrick'S College (Kilbirnie)",
-    "schoolAddress": "581 Evans Bay Parade, Kilbirnie, Wellington",
-    "city": "Wellington",
-    "island": "North Island",
-    "startedRegistrationDate": {
-      "$date": "2024-04-30T02:53:27.008Z"
-    }
-  },
-  "registrationForm": {
-    "paymentMethod": "STRIPE",
-    "ParticipationReason": "It sounded fun",
-    "undefined": "Researcher",
-    "fyi": "N/A",
-    "willingFinal": true
-  },
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
 },
 {
   "_id": {
@@ -21700,38 +20951,6 @@
 },
 {
   "_id": {
-    "email": "hanyceason@gmail.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Ephemeral",
-  "personSnapshot": {
-    "studentName": "Yichen",
-    "yearLevel": "10",
-    "studentEmail": "hanyceason@gmail.com",
-    "teacherEmail": "ian.grose@macleans.school.nz",
-    "schoolName": "Macleans College",
-    "schoolAddress": "2 Macleans Road, Bucklands Beach, Auckland 2014.",
-    "city": "Auckland",
-    "island": "North Island",
-    "startedRegistrationDate": {
-      "$date": "2024-04-30T06:27:02.226Z"
-    }
-  },
-  "paymentInfo": {
-    "paymentMethod": "POLIPAY",
-    "paymentToken": "vwfX74sKdNjIw%2beWPBa84EGN3Y4%2bQIoD"
-  },
-  "registrationForm": {
-    "paymentMethod": "POLIPAY",
-    "ParticipationReason": "To challenge myself",
-    "undefined": "STEM (Science/Technology/Engineering/Math)",
-    "fyi": "N/A",
-    "willingFinal": true
-  },
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
-},
-{
-  "_id": {
     "email": "ysabella.ho@gmail.com",
     "eventCode": "NZPMC24R1"
   },
@@ -22055,34 +21274,6 @@
     "score": "18.5/40.0",
     "titles": []
   }
-},
-{
-  "_id": {
-    "email": "wendyguan208@gmail.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Ephemeral",
-  "personSnapshot": {
-    "studentName": "Wendy",
-    "yearLevel": "12",
-    "studentEmail": "wendyguan208@gmail.com",
-    "teacherEmail": "si@waitakerecollege.school.nz",
-    "schoolName": "Waitakere College",
-    "schoolAddress": "42 Rathgar Road, Henderson, Auckland",
-    "city": "Auckland",
-    "island": "North Island",
-    "startedRegistrationDate": {
-      "$date": "2024-04-30T07:11:13.674Z"
-    }
-  },
-  "registrationForm": {
-    "paymentMethod": "STRIPE",
-    "ParticipationReason": "Others",
-    "undefined": "Architect",
-    "fyi": "No",
-    "willingFinal": true
-  },
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
 },
 {
   "_id": {
@@ -22486,41 +21677,6 @@
 },
 {
   "_id": {
-    "email": "bguo2007@gmail.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Ephemeral",
-  "personSnapshot": {
-    "studentName": "Ben",
-    "yearLevel": "12",
-    "studentEmail": "bguo2007@gmail.com",
-    "teacherEmail": "a.hawke@wc.school.nz",
-    "schoolName": "Wellington College",
-    "schoolAddress": "15 Dufferin Street",
-    "city": "Wellington",
-    "island": "North Island",
-    "startedRegistrationDate": {
-      "$date": "2024-04-30T09:15:10.446Z"
-    }
-  },
-  "paymentInfo": {
-    "paymentMethod": "POLIPAY",
-    "paymentToken": "Zre6Dr5VH5V%2fAjJ1X1BZ7CMfRdidK6Jn"
-  },
-  "registrationForm": {
-    "paymentMethod": "POLIPAY",
-    "ParticipationReason": "It sounded fun",
-    "NZPHO23R1": false,
-    "NZPMC23R1": true,
-    "NZPMC21": true,
-    "undefined": "STEM (Science/Technology/Engineering/Math)",
-    "fyi": "No",
-    "willingFinal": true
-  },
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
-},
-{
-  "_id": {
     "email": "alishaemnz@gmail.com",
     "eventCode": "NZPMC24R1"
   },
@@ -22593,34 +21749,6 @@
     "willingFinal": true,
     "paymentMethod": "POLIPAY",
     "fyi": "Nothing "
-  },
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
-},
-{
-  "_id": {
-    "email": "thegnrlboi@gmail.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Ephemeral",
-  "personSnapshot": {
-    "studentName": "Philip",
-    "yearLevel": "11",
-    "studentEmail": "thegnrlboi@gmail.com",
-    "teacherEmail": "vanharens@stpeterspn.school.nz",
-    "schoolName": "St Peter's College (Palmerston North)",
-    "schoolAddress": "1 Holdsworth Avenue",
-    "city": "Whanganui - Manawatu",
-    "island": "North Island",
-    "startedRegistrationDate": {
-      "$date": "2024-04-30T09:06:11.512Z"
-    }
-  },
-  "registrationForm": {
-    "paymentMethod": "STRIPE",
-    "ParticipationReason": "To showcase my academic ability",
-    "undefined": "STEM (Science/Technology/Engineering/Math)",
-    "fyi": "-",
-    "willingFinal": true
   },
   "_class": "com.nzpmc.registration.model.event.EventTicket"
 },
@@ -22821,43 +21949,6 @@
     "score": "26.5/40.0",
     "titles": []
   }
-},
-{
-  "_id": {
-    "email": "maitakonst@gmail.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Ephemeral",
-  "personSnapshot": {
-    "studentName": "Margarita",
-    "yearLevel": "12",
-    "studentEmail": "maitakonst@gmail.com",
-    "teacherEmail": "waj@burnside.school.nz",
-    "schoolName": "Burnside High School",
-    "schoolAddress": "PO Box 29677",
-    "city": "Canterbury",
-    "island": "South Island",
-    "startedRegistrationDate": {
-      "$date": "2024-04-30T09:22:28.188Z"
-    }
-  },
-  "paymentInfo": {
-    "paymentMethod": "POLIPAY",
-    "paymentToken": "jvmpJNpBthsGtHGAoxCyvVNv%2bBzEoKNh"
-  },
-  "registrationForm": {
-    "paymentMethod": "POLIPAY",
-    "ParticipationReason": "Parents",
-    "NZPMC22R1": true,
-    "NZPMC22R2": true,
-    "NZPMC23R1": true,
-    "NZPMC23R2": true,
-    "WORK23S1": true,
-    "undefined": "STEM (Science/Technology/Engineering/Math)",
-    "fyi": "N/A",
-    "willingFinal": true
-  },
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
 },
 {
   "_id": {
@@ -23464,36 +22555,6 @@
 },
 {
   "_id": {
-    "email": "zoeykenix@gmail.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Ephemeral",
-  "personSnapshot": {
-    "studentName": "Zoey",
-    "yearLevel": "13",
-    "studentEmail": "zoeykenix@gmail.com",
-    "teacherEmail": "waj@burnside.school.nz",
-    "schoolName": "Burnside High School",
-    "schoolAddress": "PO Box 29677",
-    "city": "Canterbury",
-    "island": "South Island",
-    "startedRegistrationDate": {
-      "$date": "2024-04-30T10:22:27.288Z"
-    }
-  },
-  "registrationForm": {
-    "NZPMC23R1": true,
-    "NZPMC23R2": false,
-    "undefined": "Others",
-    "paymentMethod": "STRIPE",
-    "ParticipationReason": "To challenge myself",
-    "fyi": "no",
-    "willingFinal": true
-  },
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
-},
-{
-  "_id": {
     "email": "james.philip.hart@gmail.com",
     "eventCode": "NZPMC24R1"
   },
@@ -23976,68 +23037,6 @@
 },
 {
   "_id": {
-    "email": "catherine.wan26@gmail.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Ephemeral",
-  "personSnapshot": {
-    "studentName": "Catherine ",
-    "yearLevel": "13",
-    "studentEmail": "catherine.wan26@gmail.com",
-    "teacherEmail": "waj@burnside.school.nz",
-    "schoolName": "Burnside High School",
-    "schoolAddress": "PO Box 29677",
-    "city": "Canterbury",
-    "island": "South Island",
-    "startedRegistrationDate": {
-      "$date": "2024-04-30T11:52:00.352Z"
-    }
-  },
-  "paymentInfo": {
-    "paymentMethod": "POLIPAY",
-    "paymentToken": "tC5U8ZbNM%2bBDeN9Ml5gBeBmkZmiJatmj"
-  },
-  "registrationForm": {
-    "NZPMC21": true,
-    "NZPMC23R1": true,
-    "NZPMC23R2": true,
-    "paymentMethod": "POLIPAY",
-    "ParticipationReason": "Friends",
-    "undefined": "Agriculture and Environment",
-    "fyi": ":D",
-    "willingFinal": true
-  },
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
-},
-{
-  "_id": {
-    "email": "doabydobap@gmail.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Ephemeral",
-  "personSnapshot": {
-    "studentName": "Arnika ",
-    "yearLevel": "10",
-    "studentEmail": "doabydobap@gmail.com",
-    "teacherEmail": "ian.grose@macleans.school.nz",
-    "schoolName": "Macleans College",
-    "schoolAddress": "2 Macleans Road, Bucklands Beach, Auckland 2014.",
-    "city": "Auckland",
-    "island": "North Island",
-    "startedRegistrationDate": {
-      "$date": "2024-04-30T12:25:29.554Z"
-    }
-  },
-  "registrationForm": {
-    "paymentMethod": "STRIPE",
-    "ParticipationReason": "Teacher/School",
-    "undefined": "School",
-    "fyi": "no :)"
-  },
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
-},
-{
-  "_id": {
     "email": "angelkchina@gmail.com",
     "eventCode": "NZPMC24R1"
   },
@@ -24437,36 +23436,6 @@
     "score": "18.0/40.0",
     "titles": []
   }
-},
-{
-  "_id": {
-    "email": "business@nzpmc.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Ephemeral",
-  "personSnapshot": {
-    "studentName": "Business",
-    "yearLevel": "9",
-    "studentEmail": "business@nzpmc.com",
-    "teacherEmail": "contact@nzpmc.com",
-    "schoolName": "NZPMC School",
-    "schoolAddress": "somewhere over the rainbow",
-    "city": "Auckland",
-    "island": "North Island",
-    "startedRegistrationDate": {
-      "$date": "2024-04-30T23:10:34.160Z"
-    }
-  },
-  "registrationForm": {
-    "paymentMethod": "STRIPE",
-    "ParticipationReason": "Others",
-    "NZPMC23R1": true,
-    "WORK23S1": true,
-    "undefined": "Transport and Logistics",
-    "willingFinal": true,
-    "fyi": "no"
-  },
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
 },
 {
   "_id": {
@@ -26685,36 +25654,4 @@
       "Top 10"
     ]
   }
-},
-{
-  "_id": {
-    "email": "zaharcenkoarina166@gmail.com",
-    "eventCode": "NZPMC24R1"
-  },
-  "registrationStatus": "Ephemeral",
-  "personSnapshot": {
-    "studentName": "Arina",
-    "yearLevel": "10",
-    "studentEmail": "zaharcenkoarina166@gmail.com",
-    "teacherEmail": "sil@cashmere.school.nz",
-    "schoolName": "Cashmere High School",
-    "schoolAddress": "172 Rose Street, Cashmere",
-    "city": "Canterbury",
-    "island": "South Island",
-    "startedRegistrationDate": {
-      "$date": "2024-05-01T11:50:10.629Z"
-    }
-  },
-  "paymentInfo": {
-    "paymentMethod": "POLIPAY",
-    "paymentToken": "D9isyKK9DZ8VNnMNivulfllZ94IKuRlI"
-  },
-  "registrationForm": {
-    "paymentMethod": "POLIPAY",
-    "ParticipationReason": "To challenge myself",
-    "undefined": "Information Technology",
-    "fyi": "I like IT and math",
-    "willingFinal": true
-  },
-  "_class": "com.nzpmc.registration.model.event.EventTicket"
 }]
