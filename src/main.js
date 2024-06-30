@@ -8,12 +8,13 @@ const EVENTTICKET_FILE = "src/registration.eventTicket.json"; // Download this q
 const OUT_DIR = "output"; // Output directory for pdf certificates
 const FILENAME_FUNC = (eventTicket) => `${eventTicket._id.email}.pdf`; // Output filename for each pdf certificate
 const SUBFOLDER_FUNC = (eventTicket) => eventTicket.personSnapshot.yearLevel; // Group eventTickets by student name
+const REPLACEMENT_PREFIX = "////"; // Replace "////name"
 const REPLACEMENTS = {
-  name: (eventTicket) => eventTicket.personSnapshot.studentName, // Replace "{name}" in template with each student's name
+  name: (eventTicket) => eventTicket.personSnapshot.studentName, // Replace "////name" in template with each student's name
 };
 const LANDSCAPE = true;
 const SCALE = 1;
-const BATCH_SIZE = 10; // Number of eventTickets to process at once
+const BATCH_SIZE = 4; // Number of eventTickets to process at once
 
 // Read files
 const template = fs.readFileSync(TEMPLATE_FILE, "utf8");
@@ -58,8 +59,8 @@ function populateTemplate(eventTicket) {
   let output = template;
   Object.entries(REPLACEMENTS).forEach(([key, func]) => {
     output = output.replaceAll(
-      `{${key}}`,
-      getValueVerbose(eventTicket, func, key),
+      `${REPLACEMENT_PREFIX}${key}`,
+      getValueAsHtml(eventTicket, func, key),
     );
   });
   return output;
