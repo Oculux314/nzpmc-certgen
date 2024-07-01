@@ -1,0 +1,214 @@
+[
+  {
+    "_id": {
+      "email": "tianzexi.liu@gmail.com",
+      "eventCode": "NZPMC24R1"
+    },
+    "registrationStatus": "Registered",
+    "personSnapshot": {
+      "studentName": "Tianzexi",
+      "yearLevel": "13",
+      "studentEmail": "tianzexi.liu@gmail.com",
+      "teacherEmail": "ian.grose@macleans.school.nz",
+      "schoolName": "Macleans College",
+      "schoolAddress": "2 Macleans Road, Bucklands Beach, Auckland 2014.",
+      "city": "Auckland",
+      "island": "North Island",
+      "startedRegistrationDate": {
+        "$date": "2024-04-04T19:13:44.035Z"
+      },
+      "registerationConfirmedDate": {
+        "$date": "2024-04-04T19:14:50.138Z"
+      }
+    },
+    "paymentInfo": {
+      "paymentMethod": "STRIPE",
+      "paymentToken": "cs_live_a1tsHvOmg63A0E7jcVjTkaPkiNsb4ZcACJKfGX59N4nBYjppMXFyBqoypP"
+    },
+    "registrationForm": {
+      "paymentMethod": "STRIPE",
+      "ParticipationReason": "To showcase my academic ability",
+      "NZPHO23R1": true,
+      "NZPMC23R2": true,
+      "NZPMC23R1": true,
+      "NZPMC22R2": true,
+      "NZPMC22R1": true,
+      "undefined": "STEM (Science/Technology/Engineering/Math)",
+      "fyi": "nooope",
+      "willingFinal": true
+    },
+    "_class": "com.nzpmc.registration.model.event.EventTicket",
+    "result": {
+      "isCompetition": true,
+      "score": "32.0/40.0",
+      "titles": ["Participation"]
+    }
+  },
+  {
+    "_id": {
+      "email": "chenyou2007@gmail.com",
+      "eventCode": "NZPMC24R1"
+    },
+    "registrationStatus": "Registered",
+    "personSnapshot": {
+      "studentName": "Chenyou",
+      "yearLevel": "12",
+      "studentEmail": "chenyou2007@gmail.com",
+      "teacherEmail": "ian.grose@macleans.school.nz",
+      "schoolName": "Macleans College",
+      "schoolAddress": "2 Macleans Road, Bucklands Beach, Auckland 2014.",
+      "city": "Auckland",
+      "island": "North Island",
+      "startedRegistrationDate": {
+        "$date": "2024-04-04T20:13:15.628Z"
+      },
+      "registerationConfirmedDate": {
+        "$date": "2024-04-04T20:13:41.136Z"
+      }
+    },
+    "paymentInfo": {
+      "paymentMethod": "STRIPE",
+      "paymentToken": "cs_live_a1czfiHnLcdY67cLypo1bKORRWzQ1w62mshfqqVYHsWT9XRyzHwsssiTUp"
+    },
+    "registrationForm": {
+      "paymentMethod": "STRIPE",
+      "ParticipationReason": "Friends",
+      "NZPMC22R1": true,
+      "NZPMC22R2": true,
+      "NZPMC23R1": true,
+      "NZPMC23R2": true,
+      "undefined": "STEM (Science/Technology/Engineering/Math)",
+      "fyi": "no",
+      "willingFinal": true
+    },
+    "_class": "com.nzpmc.registration.model.event.EventTicket",
+    "result": {
+      "isCompetition": true,
+      "score": "30.0/40.0",
+      "titles": ["Credit"]
+    }
+  },
+  {
+    "_id": {
+      "email": "kaipengli0612@gmail.com",
+      "eventCode": "NZPMC24R1"
+    },
+    "registrationStatus": "Registered",
+    "personSnapshot": {
+      "studentName": "Kai",
+      "yearLevel": "10",
+      "studentEmail": "kaipengli0612@gmail.com",
+      "teacherEmail": "b.sapsworth@kingscollege.school.nz",
+      "schoolName": "King's College",
+      "schoolAddress": "PO Box 22012 Otahuhu, Auckland 1640",
+      "city": "Auckland",
+      "island": "North Island",
+      "startedRegistrationDate": {
+        "$date": "2024-04-04T20:41:27.869Z"
+      },
+      "registerationConfirmedDate": {
+        "$date": "2024-04-04T20:41:57.860Z"
+      }
+    },
+    "paymentInfo": {
+      "paymentMethod": "STRIPE",
+      "paymentToken": "cs_live_a131QOcVGZRGcKPVMT1pkjFEY7tfL8jH45lFfbaGrwW2HiEigMKZj3TWEg"
+    },
+    "registrationForm": {
+      "paymentMethod": "STRIPE",
+      "ParticipationReason": "To challenge myself",
+      "undefined": "STEM (Science/Technology/Engineering/Math)",
+      "fyi": "I am a very good drummer and bassist.",
+      "willingFinal": true
+    },
+    "_class": "com.nzpmc.registration.model.event.EventTicket",
+    "result": {
+      "isCompetition": true,
+      "score": "37.0/40.0",
+      "titles": ["Top 10", "Merit"]
+    }
+  },
+  {
+    "_id": {
+      "email": "sarahhuang926@gmail.com",
+      "eventCode": "NZPMC24R1"
+    },
+    "registrationStatus": "Registered",
+    "personSnapshot": {
+      "studentName": "Sarah",
+      "yearLevel": "11",
+      "studentEmail": "sarahhuang926@gmail.com",
+      "teacherEmail": "ian.grose@macleans.school.nz",
+      "schoolName": "Macleans College",
+      "schoolAddress": "2 Macleans Road, Bucklands Beach, Auckland 2014.",
+      "city": "Auckland",
+      "island": "North Island",
+      "startedRegistrationDate": {
+        "$date": "2024-04-06T07:48:38.168Z"
+      },
+      "registerationConfirmedDate": {
+        "$date": "2024-04-06T07:52:38.246Z"
+      }
+    },
+    "paymentInfo": {
+      "paymentMethod": "STRIPE",
+      "paymentToken": "cs_live_a1itJ0XB2aOZTuM3HAx9u4JHT6piOY9pqBu6j3lKj6eZmSDl63GLTm8Eev"
+    },
+    "registrationForm": {
+      "paymentMethod": "STRIPE",
+      "ParticipationReason": "Teacher/School",
+      "NZPMC23R1": true,
+      "undefined": "STEM (Science/Technology/Engineering/Math)",
+      "fyi": "N/A",
+      "willingFinal": true
+    },
+    "_class": "com.nzpmc.registration.model.event.EventTicket",
+    "result": {
+      "isCompetition": true,
+      "score": "30.0/40.0",
+      "titles": ["Distinction", "Top 10"]
+    }
+  },
+  {
+    "_id": {
+      "email": "jhpl2024@gmail.com",
+      "eventCode": "NZPMC24R1"
+    },
+    "registrationStatus": "Registered",
+    "personSnapshot": {
+      "studentName": "Jay",
+      "yearLevel": "12",
+      "studentEmail": "jhpl2024@gmail.com",
+      "teacherEmail": "ian.grose@macleans.school.nz",
+      "schoolName": "Macleans College",
+      "schoolAddress": "2 Macleans Road, Bucklands Beach, Auckland 2014.",
+      "city": "Auckland",
+      "island": "North Island",
+      "startedRegistrationDate": {
+        "$date": "2024-04-04T21:18:32.275Z"
+      },
+      "registerationConfirmedDate": {
+        "$date": "2024-04-04T21:19:53.074Z"
+      }
+    },
+    "paymentInfo": {
+      "paymentMethod": "POLIPAY",
+      "paymentToken": "AUA6EwVPB4kffEf4fL1q%2f4rzS8Pt4KmD"
+    },
+    "registrationForm": {
+      "paymentMethod": "POLIPAY",
+      "ParticipationReason": "It sounded fun",
+      "NZPMC23R1": true,
+      "NZPMC23R2": true,
+      "undefined": "STEM (Science/Technology/Engineering/Math)",
+      "willingFinal": true,
+      "fyi": "Nah"
+    },
+    "_class": "com.nzpmc.registration.model.event.EventTicket",
+    "result": {
+      "isCompetition": true,
+      "score": "35.0/40.0",
+      "titles": []
+    }
+  }
+]

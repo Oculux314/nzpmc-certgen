@@ -3,7 +3,7 @@ import path from "path";
 const config = {
   // I/O
   TEMPLATE_FILE: "assets/template.html",
-  EVENTTICKET_FILE: "assets/registration.eventTicket.json", // Download registration.eventTicket.json from Mongo using query: {"_id.eventCode": "NZPMC24R1", "registrationStatus": "Registered"}
+  EVENTTICKET_FILE: "assets/registration.eventTicket.test.json", // Download registration.eventTicket.json from Mongo using query: {"_id.eventCode": "NZPMC24R1", "registrationStatus": "Registered"}
   OUT_DIR: "output",
 
   // Replace ////key using the function output
@@ -36,11 +36,11 @@ function getName(eventTicket) {
 
 function getTitle(eventTicket) {
   const titles = eventTicket.result.titles;
-  const options = ["Participantion", "Credit", "Merit", "Distinction"];
-  returnIfInList(titles, options);
+  const options = ["Participation", "Credit", "Merit", "Distinction"];
+  return returnAmongOptions(titles, options);
 }
 
-function returnIfInList(list, options) {
+function returnAmongOptions(list, options) {
   for (const option of options) {
     if (list.includes(option)) {
       return option;
