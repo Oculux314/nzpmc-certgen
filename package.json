@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "node .",
-    "dev": "nodemon ."
+    "dev": "nodemon .",
+    "convert": "node src/imageToBase64.js"
   },
   "author": "",
   "license": "ISC",

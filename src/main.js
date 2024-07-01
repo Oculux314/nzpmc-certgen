@@ -3,8 +3,8 @@ import path from "path";
 import puppeteer from "puppeteer";
 
 //Options
-const TEMPLATE_FILE = "src/template.html"; // An html certificate template
-const EVENTTICKET_FILE = "src/registration.eventTicket.json"; // Download this query from Mongo (eventTickets): {"_id.eventCode": "NZPMC24R1", "registrationStatus": "Registered"}
+const TEMPLATE_FILE = "assets/template.html"; // An html certificate template
+const EVENTTICKET_FILE = "assets/registration.eventTicket.json"; // Download this query from Mongo (eventTickets): {"_id.eventCode": "NZPMC24R1", "registrationStatus": "Registered"}
 const OUT_DIR = "output"; // Output directory for pdf certificates
 const FILENAME_FUNC = (eventTicket) => `${eventTicket._id.email}.pdf`; // Output filename for each pdf certificate
 const SUBFOLDER_FUNC = (eventTicket) => eventTicket.personSnapshot.yearLevel; // Group eventTickets by student name
@@ -13,12 +13,17 @@ const REPLACEMENTS = {
   name: (eventTicket) => eventTicket.personSnapshot.studentName, // Replace "////name" in template with each student's name
 };
 const LANDSCAPE = true;
-const SCALE = 1;
-const BATCH_SIZE = 4; // Number of eventTickets to process at once
+const SCALE = 1.5;
+const BATCH_SIZE = 5; // Number of eventTickets to process at once
 
 // Read files
 const template = fs.readFileSync(TEMPLATE_FILE, "utf8");
 const eventTickets = JSON.parse(fs.readFileSync(EVENTTICKET_FILE, "utf8"));
+
+// Setup puppeteer browser
+const browser = await puppeteer.launch({ headless: true });
+
+//
 
 // For logging
 const totalEventTickets = eventTickets.length;
@@ -60,7 +65,7 @@ function populateTemplate(eventTicket) {
   Object.entries(REPLACEMENTS).forEach(([key, func]) => {
     output = output.replaceAll(
       `${REPLACEMENT_PREFIX}${key}`,
-      getValueAsHtml(eventTicket, func, key),
+      getValueVerbose(eventTicket, func, key),
     );
   });
   return output;
@@ -82,7 +87,6 @@ function getValueVerbose(eventTicket, func, key) {
 
 // Single html string to pdf file
 async function generatePdf(html, filename) {
-  const browser = await puppeteer.launch();
   const page = await browser.newPage();
   await page.setContent(html);
 
@@ -105,7 +109,7 @@ async function generatePdf(html, filename) {
   } catch (error) {
     logPdfEndStatus(`Error creating: ${filename}`);
   } finally {
-    browser.close();
+    page.close();
   }
 }
 
