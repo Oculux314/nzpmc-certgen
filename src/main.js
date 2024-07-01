@@ -1,129 +1,31 @@
-import fs from "fs";
-import path from "path";
-import puppeteer from "puppeteer";
+import config from "./config.js";
+import { eventTickets, template } from "./input.js";
+import { logPreprocessing, logProgress, logStart, logSummary } from "./log.js";
+import { getStaticMapping, populateTemplate } from "./processing.js";
+import { generatePdf } from "./puppeteer.js";
+const { BATCH_SIZE, MAPPING } = config;
 
-//Options
-const TEMPLATE_FILE = "assets/template.html"; // An html certificate template
-const EVENTTICKET_FILE = "assets/registration.eventTicket.json"; // Download this query from Mongo (eventTickets): {"_id.eventCode": "NZPMC24R1", "registrationStatus": "Registered"}
-const OUT_DIR = "output"; // Output directory for pdf certificates
-const FILENAME_FUNC = (eventTicket) => `${eventTicket._id.email}.pdf`; // Output filename for each pdf certificate
-const SUBFOLDER_FUNC = (eventTicket) => eventTicket.personSnapshot.yearLevel; // Group eventTickets by student name
-const REPLACEMENT_PREFIX = "////"; // Replace "////name"
-const REPLACEMENTS = {
-  name: (eventTicket) => eventTicket.personSnapshot.studentName, // Replace "////name" in template with each student's name
-};
-const LANDSCAPE = true;
-const SCALE = 1.5;
-const BATCH_SIZE = 5; // Number of eventTickets to process at once
+logStart();
 
-// Read files
-const template = fs.readFileSync(TEMPLATE_FILE, "utf8");
-const eventTickets = JSON.parse(fs.readFileSync(EVENTTICKET_FILE, "utf8"));
+// Event ticket + function mapping -> static mapping
+const mappings = eventTickets.map((eventTicket) =>
+  getStaticMapping(eventTicket, MAPPING),
+);
 
-// Setup puppeteer browser
-const browser = await puppeteer.launch({ headless: true });
+// Template + static mapping -> { HTML + filename }
+const personalisedCertificates = mappings.map((mapping) =>
+  populateTemplate(template, mapping),
+);
 
-//
+logPreprocessing();
 
-// For logging
-const totalEventTickets = eventTickets.length;
-let processedEventTickets = 0;
-let createdPdfFiles = 0;
-console.log(`Processing ${totalEventTickets} eventTickets...`);
-
-/* --- */
-
-// Convert single eventTicket to pdf
-async function processEventTicket(eventTicket) {
-  const html = populateTemplate(eventTicket);
-  await generatePdf(html, getFullFilename(eventTicket));
-}
-
-// Process 10 eventTickets async
-async function batchProcessEventTickets(start, batchSize = 10) {
-  await Promise.all(
-    eventTickets.slice(start, start + batchSize).map(processEventTicket),
-  );
-}
-
-function getFullFilename(eventTicket) {
-  let filename; // Hoisted for logging
-  try {
-    filename = FILENAME_FUNC(eventTicket);
-    const subfolder = SUBFOLDER_FUNC(eventTicket);
-    return path.join(OUT_DIR, subfolder, filename);
-  } catch (error) {
-    console.log(
-      `Error getting filename for eventTicket: ${filename ?? eventTicket}`,
-    );
-  }
-}
-
-// Populate template using an eventTicket
-function populateTemplate(eventTicket) {
-  let output = template;
-  Object.entries(REPLACEMENTS).forEach(([key, func]) => {
-    output = output.replaceAll(
-      `${REPLACEMENT_PREFIX}${key}`,
-      getValueVerbose(eventTicket, func, key),
-    );
-  });
-  return output;
-}
-
-// Try get a value from an eventTicket, log warning & return empty string if error
-function getValueVerbose(eventTicket, func, key) {
-  try {
-    const value = func(eventTicket);
-    if (!value) throw new Error("Empty value");
-    return value;
-  } catch (error) {
-    console.log(
-      `Error getting ${key} value from eventTicket: ${FILENAME_FUNC(eventTicket)}`,
-    );
-    return ""; // Avoid any chance of ugly "//key" in output
-  }
-}
-
-// Single html string to pdf file
-async function generatePdf(html, filename) {
-  const page = await browser.newPage();
-  await page.setContent(html);
-
-  // Ensure output directory exists
-  const directory = path.dirname(filename);
-  fs.mkdir(directory, { recursive: true }, (err) => {
-    if (err) throw err;
-  });
-
-  try {
-    await page.pdf({
-      path: filename,
-      format: "A4",
-      landscape: LANDSCAPE,
-      printBackground: true,
-      scale: SCALE,
-    });
-    logPdfEndStatus(`Created: ${filename}`);
-    createdPdfFiles++;
-  } catch (error) {
-    logPdfEndStatus(`Error creating: ${filename}`);
-  } finally {
-    page.close();
-  }
-}
-
-function logPdfEndStatus(message) {
-  processedEventTickets++;
-  console.log(`[${processedEventTickets}/${totalEventTickets}] ${message}`);
-}
-
-/* --- */
-
+// { HTML + filename } -> PDF
 for (let i = 0; i < eventTickets.length; i += BATCH_SIZE) {
-  await batchProcessEventTickets(i, BATCH_SIZE);
-  console.log(`>> [${processedEventTickets}/${totalEventTickets}]`);
+  const batch = personalisedCertificates.slice(i, i + BATCH_SIZE);
+  await Promise.all(
+    batch.map(({ html, filename }) => generatePdf(html, filename)),
+  );
+  logProgress();
 }
 
-console.log(`Processed ${processedEventTickets} eventTickets`);
-console.log(`Created ${createdPdfFiles} pdf files`);
+logSummary();
